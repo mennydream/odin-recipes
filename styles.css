@@ -1,0 +1,16 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: lightcoral;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.button {
+    background-color: beige;
+    border:none;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 14px;
+}
