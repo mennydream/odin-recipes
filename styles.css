@@ -6,11 +6,10 @@ body{
     text-align: center;
 }
 
-.button {
-    background-color: beige;
-    border:none;
-    text-align: center;
-    text-decoration: none;
-    display: inline;
-    font-size: 14px;
+ul {
+    padding-left: 0%;
+}
+
+ol {
+    text-align: left;
 }
