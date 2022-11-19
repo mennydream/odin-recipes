@@ -1,15 +1,58 @@
-body{
-    margin:0;
-    padding:0;
-    background-color: lightcoral;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body {
+    background-color: #d8d4f2;
+    color: #332e3c;
+}
+
+#heading{ 
+    text-transform: capitalize;
     text-align: center;
+    font-size: 28px;
+    background-color: #c4b2bc;
 }
 
-ul {
-    padding-left: 0%;
+#images {
+    text-align: center;
+
+}
+#sub-heading{
+    text-align: center;
+    font-size: 24px;
 }
 
-ol {
-    text-align: left;
+.recipe-list, 
+.recipe-list ul,
+.recipe-list ul a{
+    color:#332e3c;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#recipe-tab,
+#recipe-tab ul,
+#recipe-tab li,
+#recipe-tab ul a{
+    color:#332e3c;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#recipe-tab li{
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+}
+
+#content,
+#content ul,
+#content li
+{
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
 }
